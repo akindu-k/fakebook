@@ -7,26 +7,31 @@ import './navBar.css';
 export default function NavBar() {
   return (
     <div className="navBarBox">
+      
       <div className="navBarLeft">
         <span className="logo">fakebook</span>
       </div>
+      
       <div className="navBarCenter">
-        <div className="searchBarBox"></div>
-        <SearchIcon className="searchIcon" />
-        <input placeholder="search for your friend" className="searchInput"/>
+        <div className="searchBarBox">
+          <span className="searchIconSpan" ><SearchIcon className="searchIcon" /></span>
+          <span className="searchIconSpan"><input placeholder="search for your friend" className="searchInput"/></span>
+        </div>
       </div>
+      
       <div className="navBarRight">
         <div className="navBarLinks">
           <span className="navBarLink">Homepage</span>
           <span className="navBarLink">Profile</span>
         </div>
         <div className="navBarIcons">
-          <div className="navBarIcon"> <PersonIcon/><span className="iconTag">3</span></div>
-          <div className="navBarIcon"> <MessageIcon/><span className="iconTag">11</span></div>
-          <div className="navBarIcon"><SettingsIcon></SettingsIcon><span className="iconTag">1</span> </div>
-          <div className="pic"><img src="./public/images/profilePic.jpg" alt="profile-pic" className="profileIcon" /></div>
+          <span className="navBarIcon"> <PersonIcon/><span className="iconTag">3</span></span>
+          <span className="navBarIcon"> <MessageIcon/><span className="iconTag">11</span></span>
+          <span className="navBarIcon"><SettingsIcon></SettingsIcon><span className="iconTag">1</span> </span>
+          <span className="pic"><img src="./public/images/profilePic.jpg" alt="profile-pic" className="profileIcon" /></span>
         </div>
       </div>
+      
     </div>
   );
 }
