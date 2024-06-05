@@ -11,6 +11,7 @@
 
 .navBarLeft {
   flex: 3;
+  font-family: sans-serif;
 }
 
 .navBarCenter {

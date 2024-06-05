@@ -28,7 +28,8 @@ export default function NavBar() {
           <span className="navBarIcon"> <PersonIcon/><span className="iconTag">3</span></span>
           <span className="navBarIcon"> <MessageIcon/><span className="iconTag">11</span></span>
           <span className="navBarIcon"><SettingsIcon></SettingsIcon><span className="iconTag">1</span> </span>
-          <span className="pic"><img src="./public/images/profilePic.jpg" alt="profile-pic" className="profileIcon" /></span>
+          <span className="pic">            <img src="https://i.ibb.co/2Sk3Pny/profile-Pic.jpg" alt="profile-Pic" border="0" className="profileIcon"/>
+</span>
         </div>
       </div>
       
