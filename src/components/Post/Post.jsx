@@ -12,11 +12,11 @@ export default function Post() {
               border="0"
               className="postImage"
             />
-            <span className="postUserName">Sanuji Samarakoon</span>
+            <span className="postUserName">Lucy Perera</span>
             <span className="postTime">5 mins ago</span>
           </div>
           <div className="postCenter">
-            <div className="postCaption">Hello! I am Piyumra.</div>
+            <div className="postCaption">Hello! I am feeling happy.</div>
             <img
               src="https://i.ibb.co/2Sk3Pny/profile-Pic.jpg"
               alt="profile-Pic"
